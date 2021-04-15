@@ -1,0 +1,19 @@
+.Head{
+  background-color: #5079a8;
+  height: 100%;
+  width: 12%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  float: right;
+}
+.Text{
+  top: 3%;
+  color: black;
+  margin-left: 5%;
+  margin-top: 15%;
+  line-height: normal;
+  position: relative;
+  border-top: 20px;
+}

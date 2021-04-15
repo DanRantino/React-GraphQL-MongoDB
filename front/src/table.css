@@ -1,0 +1,69 @@
+.divTable
+{
+    top: 5%;
+    left: 20%;
+    display:  table;
+    width:auto;
+    background-color:#5f5b5c;
+    border:1px solid  #666666;
+    border-spacing:5px;/*cellspacing:poor IE support for  this*/
+    align-items: center;
+    position: absolute;
+    border-radius: 5px;
+    /* border-collapse:separate;*/
+}
+.headRow
+{
+  background-color: #ccc;   
+}
+
+.divRow
+{
+    display:table-row;
+    width:auto;
+    align-items: center;
+  }
+
+.divCell
+{
+    float:left;/*fix for  buggy browsers*/
+    display:table-column;
+    width:200px;
+    background-color:#ccc;
+    align-items: center;
+    align-content: center;
+  }
+.divCellH
+{
+    float:left;/*fix for  buggy browsers*/
+    display:table-column;
+    width:200px;
+    background-color:#5f5b5c;
+    align-items: center;
+    align-content: center;
+  }
+  .divCellHI
+  {
+      float:left;/*fix for  buggy browsers*/
+      display:table-column;
+      width:192px;
+      background-color:#5f5b5c;
+      align-items: center;
+      align-content: center;
+    }
+.rodando 
+{
+  animation: is-rotating 1s infinite;
+
+}
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.divRodando{
+  position: relative;
+  top:35%;
+  left:50%;
+  z-index: 1;
+}
